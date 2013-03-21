@@ -1,0 +1,16 @@
+bg:
+  devise:
+    invitations:
+      send_instructions: 'Поканата беше изпратена на %{email}.'
+      invitation_token_invalid: 'Поканата не е валидна!'
+      updated: 'Вашата парола беше записана успешно. Вие в момента сте влезли.'
+      no_invitations_remaining: "Няма налични покани"
+      new:
+        header: "Изпращане на покана"
+        submit_button: "Изпратете покана"
+      edit:
+        header: "Въведете парола"
+        submit_button: "Запиши паролата"
+    mailer:
+      invitation_instructions:
+        subject: 'Инструкции за покана'
